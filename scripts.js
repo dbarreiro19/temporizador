@@ -18,7 +18,7 @@ function count() {
     let data_atual = new Date()
     data_atual = data_atual.getTime()
     
-    let data_final = new Date("2025-04-16 18:48:00")
+    let data_final = new Date("2025-03-21 18:48:00")
     data_final = data_final.getTime()
     
     let ms_restante = new Date(data_final - data_atual)
