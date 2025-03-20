@@ -28,7 +28,7 @@ function count() {
     let minutos = ms_restante.getUTCMinutes()
     let segundos = ms_restante.getUTCSeconds()
 
-    res.innerHTML = `${dias} dias ${formatar_tempo(horas)}h ${formatar_tempo(minutos)}m ${formatar_tempo(segundos)}s`
+    res.innerHTML = `${dias} dia(s) ${formatar_tempo(horas)}h ${formatar_tempo(minutos)}m ${formatar_tempo(segundos)}s`
 
     if (ms_restante <= 0) {        
         title_app.innerHTML = "GAMEOVER!"
